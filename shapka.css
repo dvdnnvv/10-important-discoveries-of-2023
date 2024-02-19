@@ -1,0 +1,126 @@
+* {
+    font-family: Arial, sans-serif;
+
+}
+.Top_menu li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+  }
+  
+  .Logo, .Top_menu {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+  }
+  
+   
+  header {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: -50px;
+  }
+  
+  .Top_menu a {
+    text-decoration: none;
+    vertical-align: middle;
+    color: #FFCB9A;
+    font-size: 23px;
+  }
+  
+  .Top_menu a:hover{
+    color:#816954;
+  }
+  
+  .Logo h1 {
+    color: #FFCB9A;
+    font-size: 50px;
+    vertical-align: middle;
+    margin-top: -10px;
+  }
+  
+  .navik:before{
+    content: '';
+    display: block;
+    height: 110px;
+    width: 100%;
+    background: #2c3531;
+    position: absolute;
+    left: 0%;
+    z-index: -2;
+    margin-top: -50px;
+  }
+  
+  .navik {
+    width: 960px;
+    margin-top: -35px;
+  }
+  
+  body {
+    background-color: #D1E8E2;
+  }
+  .book {
+    background: #116466;
+    float: left;
+    width: 20%;
+    height: 670px;
+    color: #FFCB9A;
+ 
+  }
+    .menu {
+       margin-left: 40px;
+       color: #2c3531;
+       font-size: 20px;
+    }
+
+    .menutext {
+        text-decoration: none;
+        vertical-align: middle;
+        color: #FFCB9A;
+        font-size: 17px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: #FFCB9A;
+    }
+    
+    a:hover {
+        color: #2c3531 ;
+    }
+
+    .maintext {
+        margin-left: 350px;
+        text-align: justify;
+        margin-right: 50px;
+    }
+    .foto {
+        margin-left: 200px;
+
+    }
+
+    .zago {
+        font-size: 50px;
+        font-weight: bold;
+        margin-left: 350px;
+        text-align: justify;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+
+    .zamorozka{
+        position: sticky;
+        top: 40px;
+      }
+      
+    .top {
+        font-size: 70px;
+        font-weight: bold;
+        margin-left: 350px;
+        text-align: justify;
+        margin-right: 50px;
+        margin-top: 50px;
+        color: #116466;
+    }
